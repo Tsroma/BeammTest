@@ -129,5 +129,5 @@ who_we_are:
   enable: true
   image: images/about/CAPE.png
   subtitle: Who We Are
-  title: The Center for Applied Public Economics
+  title: The Center
 ---
