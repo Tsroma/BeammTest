@@ -1,0 +1,97 @@
+# main menu
+[[main]]
+name = "Home"
+url = ""
+weight = 1
+
+[[main]]
+name = "Simulation"
+url = "simulation/"
+weight = 2
+
+[[main]]
+name = "beamm"
+url = "beamm/"
+weight = 3
+
+[[main]]
+name = "Contact"
+url = "contact/"
+weight = 4
+
+[[main]]
+name = "About"
+url = "about/"
+weight = 5
+
+[[main]]
+weight = 6
+name = "News and Events"
+#url = "blog/"
+hasChildren = true
+
+  [[main]]
+  parent = "News and Events"
+  name = "News"
+  url = "blog/"
+  weight = 1
+
+  [[main]]
+  parent = "News and Events"
+  name = "Events"
+  url = "news_events/events/"
+  weight = 2
+  
+  [[main]]
+  parent = "News and Events"
+  name = "Blog"
+  url = "news_events/blog/"
+  weight = 3
+
+[[main]]
+name = "Tax-benefit system"
+url = "tb_system/"
+weight = 7
+
+[[main]]
+weight = 8
+name = "Research"
+hasChildren = true
+
+  [[main]]
+  parent = "Research"
+  name = "Publications"
+  url = "research/publications/"
+  weight = 1
+
+  [[main]]
+  parent = "Research"
+  name = "Working Papers"
+  url = "research/working_papers/"
+  weight = 2
+  
+[[main]]
+  name = "Videos"
+  url = "videos/"
+  weight = 9
+  
+# footer menu
+[[footer]]
+name = "About"
+url = "about/"
+weight = 1
+
+[[footer]]
+name = "Blog"
+url = "blog/"
+weight = 2
+
+[[footer]]
+name = "Blog Details"
+url = "blog/post-1/"
+weight = 3
+
+[[footer]]
+name = "Terms & Conditions"
+url = "terms-and-conditions/"
+weight = 4
